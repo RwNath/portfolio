@@ -35,7 +35,7 @@ export default function Home() {
         scrollToSkill={scrollToSkill}
       />
 
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mt-100 bg-gradient-to-tl from-slate-800 via-green-500 to-zinc-400 bg-clip-text text-transparent animate-bounce">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mt-75 bg-gradient-to-tl from-slate-800 via-green-500 to-zinc-400 bg-clip-text text-transparent animate-bounce">
         RwNath
       </h1>
 
@@ -60,7 +60,7 @@ export default function Home() {
 
       <h1
         ref={projectsRef}
-        className="mt-100 font-semibold flex items-center justify-center text-2xl sm:text-3xl md:text-5xl"
+        className="mt-125 font-semibold flex items-center justify-center text-2xl sm:text-3xl md:text-5xl"
       >
         Mes projets
       </h1>
