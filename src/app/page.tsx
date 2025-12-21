@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useRef } from "react";
 import { FaGithub, FaReact } from "react-icons/fa";
 import {
-  SiJavascript,
   SiMongodb,
   SiTailwindcss,
   SiTypescript,
@@ -75,7 +74,7 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl font-semibold text-white mb-2 text-center">
             Portfolio
           </h2>
-          <p className="text-gray-300 text-sm sm:text-base text-justify">
+          <p className="text-gray-300 text-sm sm:text-base">
             Mon portfolio personnel présente mes projets et réalisations en tant
             qu&apos;apprenti développeur fullstack. Il combine un design
             moderne, des animations et un thème sombre pour une expérience
@@ -123,7 +122,7 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl font-semibold text-white mb-2 text-center">
             Meteor bot
           </h2>
-          <p className="text-gray-300 text-sm sm:text-base text-justify">
+          <p className="text-gray-300 text-sm sm:text-base">
             Meteor Bot est un bot Discord complet et polyvalent, conçu pour
             améliorer l&apos;expérience de votre serveur. Il combine des outils
             de modération puissants, des fonctionnalités amusantes et des
@@ -134,7 +133,7 @@ export default function Home() {
           <Separator className="mt-4 w-3/4 mx-auto" />
           <div className="mt-3 flex justify-center gap-2 flex-wrap">
             <Button variant="outline" size="icon-lg">
-              <SiJavascript className="text-yellow-300" />
+              <SiTypescript className="text-blue-600" />
             </Button>
             <Button variant="outline" size="icon-lg">
               <Image
