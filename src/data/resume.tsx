@@ -151,7 +151,7 @@ export const DATA = {
       username: "rwnath",
     },
     wakatime: {
-      username: "Nath",
+      username: "RwNath",
     },
     enabled: true,
   },
